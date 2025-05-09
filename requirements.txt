@@ -1,0 +1,6 @@
+flask
+torch
+transformers
+requests
+feedparser
+beautifulsoup4
