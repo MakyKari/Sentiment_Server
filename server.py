@@ -9,7 +9,7 @@ import feedparser
 
 app = Flask(__name__)
 
-model_path = "./BERT"
+model_path = "MakyKari/BERT_RU_KZ_Sentiment_Model"
 tokenizer = BertTokenizer.from_pretrained(model_path)
 model = BertForSequenceClassification.from_pretrained(model_path)
 model.eval()
